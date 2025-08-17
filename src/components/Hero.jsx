@@ -26,10 +26,8 @@ function Hero() {
           into daily life, traditions, and the warmth of Balinese hospitality.
         </h4>
       </div>
-
-      <div className="border-2 border-gray-300 w-[1353px] h-[130px] rounded-[32px] flex justify-evenly items-center text-center">
         <Info/>
-      </div>
+     
     </div>
   );
 }
