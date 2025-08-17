@@ -4,7 +4,7 @@ import React from 'react'
 function Host() {
   return (
     <div
-      className="w-full h-[300px] sm:h-[550px] md:h-[650px] lg:h-[550px] bg-cover bg-center flex items-center text-white p-4 sm:p-6 md:p-8"
+      className="w-full h-[330px] sm:h-[550px] md:h-[650px] lg:h-[550px] bg-cover bg-center flex items-center text-white p-4 sm:p-6 md:p-8"
       style={{ backgroundImage: "url('/host.png')" }}
     >
       <div className="max-w-3xl  mx-auto lg:mx-0 pl-0 lg:pl-[64px]">

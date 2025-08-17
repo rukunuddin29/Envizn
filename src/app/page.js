@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Guest from "@/components/Guest";
 import Footer from "@/components/Footer";
 import Host from "@/components/Host";
+import ReviewSlider from "@/components/ReviewSlider";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero/>
     <Guest/>
     <Host/>
+    <ReviewSlider/>
     <Footer/>
     
    </div>
