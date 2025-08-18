@@ -5,7 +5,7 @@ import Info from "./Info";
 
 function Hero() {
   return (
-    <div className="px-4 sm:px-8 md:px-[64px] py-12 sm:py-16 md:py-[112px] bg-amber-50 flex flex-col items-center gap-12 md:gap-16">
+    <div className="px-4 sm:px-8 md:px-[64px] py-12 sm:py-16 md:py-[112px] bg-[#fdf3e8] flex flex-col items-center gap-12 md:gap-16">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 w-full max-w-[1376px] mx-auto">
         
         {/* Column 1 (1 & 2) */}

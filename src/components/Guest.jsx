@@ -6,6 +6,7 @@ import Divider from "./Divider";
 import Section from "./Section";
 import Calender from "./Calender";
 import FAQ from "./FAQ";
+import ImageSlider from "./ImageSlider";
 
 function Guest() {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -51,6 +52,8 @@ function Guest() {
             </button>
 
           </div>
+          <Divider/>
+          <ImageSlider/>
           <Divider/>
 
           <Section/>
