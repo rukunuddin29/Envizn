@@ -12,7 +12,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 
 function ImageSlider() {
-  const images = ["/1.png", "/2.png", "/3.png", "/4.png", "/5.png", "/6.png"];
+  const images = ["/8.png", "/3.png", "/3.png", "/6.png"];
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -67,7 +67,7 @@ function ImageSlider() {
                 src={src}
                 alt={`slide-${index + 1}`}
                 width={400}
-                height={250}
+                height={200}
                 className="rounded-xl object-cover"
               />
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Form() {
   return (
-    <div className="pt-[20px] px-[30px] rounded-2xl mx-auto">
+    <div className="pt-[20px] px-2 lg:px-[30px] rounded-2xl mx-auto">
       {/* Rating */}
       <p className="text-gray-700 mb-6">
         ⭐⭐⭐⭐⭐ <span className="text-gray-500 text-sm">(4.9 · 120 reviews)</span>
