@@ -9,7 +9,7 @@ function Hero() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 w-full max-w-[1376px] mx-auto">
         
         {/* Column 1 (1 & 2) */}
-        <div className="flex flex-col gap-4 sm:gap-6">
+        <div className="md:flex hidden flex-col gap-4 sm:gap-6">
           <Image src="/1.png" alt="frame" width={1376} height={398} priority />
           <Image src="/2.png" alt="frame" width={1376} height={398} priority />
         </div>

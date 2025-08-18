@@ -21,7 +21,7 @@ function FAQ() {
 
         <BaliMap/>
 
-        <p className="px-4 pb-4 text-gray-700">
+        <p className="px-4 pb-4 py-5 text-gray-700">
         Pickup & Drop-off Location: Your hotel or villa within Ubud, Canggu, Seminyak, or Sanur areas
 
 Pickup Time: 7:30 AM – We’ll confirm the exact time based on your location
@@ -45,7 +45,7 @@ Private Transfers: Clean, air-conditioned vehicle with a friendly local driver
           </span>
         </summary>
 
-        <p className="px-4 pb-4 text-gray-700">
+        <p className="px-4 pb-4 py-5 text-gray-700">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
           molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
           voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -66,7 +66,7 @@ Private Transfers: Clean, air-conditioned vehicle with a friendly local driver
           </span>
         </summary>
 
-        <p className="px-4 pb-4 text-gray-700">
+        <p className="px-4 pb-4 py-5 text-gray-700">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
           molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
           voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -87,7 +87,7 @@ Private Transfers: Clean, air-conditioned vehicle with a friendly local driver
           </span>
         </summary>
 
-        <p className="px-4 pb-4 text-gray-700">
+        <p className="px-4 pb-4 py-5 text-gray-700">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
           molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
           voluptate dicta quo officiis explicabo consequuntur distinctio corporis
@@ -108,7 +108,7 @@ Private Transfers: Clean, air-conditioned vehicle with a friendly local driver
           </span>
         </summary>
 
-        <p className="px-4 pb-4 text-gray-700">
+        <p className="px-4 pb-4 py-5 text-gray-700">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
           molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
           voluptate dicta quo officiis explicabo consequuntur distinctio corporis

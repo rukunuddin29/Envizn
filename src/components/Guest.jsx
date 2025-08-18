@@ -5,8 +5,14 @@ import Form from "./Form";
 import Divider from "./Divider";
 import Section from "./Section";
 import Calender from "./Calender";
-import FAQ from "./FAQ";
+import FAQ from "./FAQ"
+import { FaLocationDot } from "react-icons/fa6";
+
 import ImageSlider from "./ImageSlider";
+import { FaRegClock } from "react-icons/fa";
+import { FaSuitcase } from "react-icons/fa";
+
+
 
 function Guest() {
   const [selectedDate, setSelectedDate] = useState(null);
@@ -44,14 +50,22 @@ function Guest() {
           </ul>
 
           <div className="flex flex-col sm:flex-row gap-4 mt-4">
-            <button className="px-5 py-2 bg-[#F48712] text-white font-medium rounded-lg shadow-md hover:bg-[#d96f0f]">
-              Village near Ubud
-            </button>
-            <button className="px-5 py-2 border border-gray-400 text-gray-700 font-medium rounded-lg hover:bg-gray-100">
-              Learn More
-            </button>
+  <button className="flex items-center gap-2 px-3 py-1 w-auto bg-[#384B40] text-white rounded-3xl shadow-md text-sm">
+    <FaLocationDot />
+    Village near Ubud
+  </button>
 
-          </div>
+  <button className="flex items-center gap-2 px-3 py-1 bg-[#384B40] text-white rounded-3xl shadow-md text-sm">
+    <FaRegClock />
+    9am - 12pm
+  </button>
+
+  <button className="flex items-center gap-2 px-3 py-1 bg-[#384B40] text-white rounded-3xl shadow-md text-sm">
+    <FaSuitcase />
+    Private
+  </button>
+</div>
+
           <Divider/>
           <ImageSlider/>
           <Divider/>
