@@ -21,7 +21,7 @@ function Footer() {
           </div>
 
          
-          <div className="w-full border-t-2 border-white opacity-80 mt-10"></div>
+          <div className="w-full border-t-2 border-white opacity-80"></div>
 
        
           <div className="flex flex-col sm:flex-row text-white text-sm justify-between items-center w-full gap-4 sm:gap-0">

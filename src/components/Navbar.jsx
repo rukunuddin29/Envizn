@@ -34,7 +34,7 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Button */}
+      
       <div className="md:hidden flex items-center">
         <button onClick={() => setOpen(!open)}>
           {open ? <FiX size={28} /> : <FiMenu size={28} />}
